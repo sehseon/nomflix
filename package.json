@@ -32,7 +32,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://sehseon.github.com/nomflix",
+  "homepage": "https://sehseon.github.io/nomflix/",
   "browserslist": {
     "production": [
       ">0.2%",
