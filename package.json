@@ -32,7 +32,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://sehseon.github.io/nomflix/",
+  "homepage": "https://wizardly-bhaskara-27761c.netlify.app",
   "browserslist": {
     "production": [
       ">0.2%",
