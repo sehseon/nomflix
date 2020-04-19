@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-
 const Container = styled.div`
   height: 100vh;
   width: 100vw;
@@ -10,4 +9,5 @@ const Container = styled.div`
   margin-top: 20px;
 `;
 
-export default () => <Container><span role="img" aria-label="Loading">⏰</span></Container>
+// export default () => <Container><span role="img" aria-label="Loading">⏰</span></Container>
+export default () => <Container><img src={require("../assets/loader.gif")} width={32} height={32}/></Container>
