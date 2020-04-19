@@ -37,7 +37,7 @@ export default class extends React.Component {
       }
 
       // throw Error("");
-      console.log("result", result);
+      // console.log("result", result);
     } catch {
       this.setState({
         error: "Can't find anything.",
@@ -51,8 +51,8 @@ export default class extends React.Component {
   }
 
   render() {
-    const { result, error, loading } = this.state;
-    console.log(this.props);
-    return <DetailPresenter result={result} error={error} loading={loading} />;
+    const { result, isMovie, error, loading } = this.state;
+    // console.log(this.props);
+    return <DetailPresenter result={result} isMovie={isMovie} error={error} loading={loading} />;
   }
 }

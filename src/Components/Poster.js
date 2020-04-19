@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { fas, faStar } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { fas, faStar } from '@fortawesome/react-fontawesome';
 
 const Container = styled.div`
   font-size: 12px;
@@ -51,18 +51,18 @@ const Year = styled.span`
   color: rgba(255, 255, 255, 0.5);
 `;
 
-const Star = styled.span`
-  display: flex;
-  justify-content: space-between;
-  width: 60%;
-  background: -webkit-linear-gradient(
-    left,
-    #f1c40f ${props => props.percent}%,
-    #555 ${props => 100 - props.percent}%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-`;
+// const Star = styled.span`
+//   display: flex;
+//   justify-content: space-between;
+//   width: 60%;
+//   background: -webkit-linear-gradient(
+//     left,
+//     #f1c40f ${props => props.percent}%,
+//     #555 ${props => 100 - props.percent}%
+//   );
+//   -webkit-background-clip: text;
+//   -webkit-text-fill-color: transparent;
+// `;
 
 // export function FontAwesomeIcon(props) {
 //   return <i className="fa" />
