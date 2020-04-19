@@ -9,5 +9,6 @@ const Container = styled.div`
   margin-top: 20px;
 `;
 
+// https://icons8.com/preloaders/en/circular/2/
 // export default () => <Container><span role="img" aria-label="Loading">⏰</span></Container>
 export default () => <Container><img src={require("../assets/loader.gif")} width={32} height={32}/></Container>
